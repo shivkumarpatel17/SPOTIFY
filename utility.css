@@ -1,0 +1,69 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* Color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222; /* Color of the scrollbar track */
+}
+
+/* For Firefox */
+/* You might need to use !important to override default styles */
+/* For Firefox, these styles will only work in version 64 and later */
+/* Adjust these colors to fit your dark theme */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #333 #222;
+}
+
+/* For Edge and IE */
+/* Unfortunately, Edge and IE do not support custom styling of scrollbars */
+/* You can only style the color of the scrollbar using -ms-overflow-style property */
+/* For Edge and IE, this will only work in the light theme */
